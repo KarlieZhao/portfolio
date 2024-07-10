@@ -24,8 +24,8 @@ draw = _ => {
 
 DrawRect = (size, x, y) => {
     if (size / h < abs(noise((mouseX / 5 - x) / h + 1, (mouseY / 5 - y) / h + frameCount / 1000, mag(x, y) / w) - .5)) {
-        fill(thisHue, size * 5, 1.1*(40 - size)) //(30 - size) * 0.05
-        textSize(size*1.2);
+        fill((thisHue+size*3)%360, size * 5, 50, 2-size* 0.06) 
+        textSize(size*1.5);
         text(poem.charAt((x+(y+h)*(w/size))%poem.length),x,y);
         // rect(x, y, size, size)
     } else {
