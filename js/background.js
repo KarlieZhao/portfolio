@@ -12,6 +12,7 @@ resetBG = _ => {
     w = min(width, height)
     h = w / 2
     thisHue = random(360);
+    background(0);
     frameRate(20);
     noStroke()
 }
