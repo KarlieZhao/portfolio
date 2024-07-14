@@ -1,1 +1,11 @@
-var poem="似醒似睡缓缓的柔光里似悠悠醒自千年的大寐一只瓜从从容容在成熟一只苦瓜不再是涩苦日磨月磋琢出深孕的清莹看茎须缭绕叶掌抚抱哪一年的丰收像一口要吸尽古中国喂了又喂的乳浆完满的圆腻啊酣然而饱那触角不断向外膨胀充实每一粒酪白的葡萄直到瓜尖仍翘着当日的新鲜茫茫九州只缩成一张舆图小时候不知道将它叠起一任推开那无穷无尽硕大似记忆母亲她的胸脯你便向那片肥沃匍匐用蒂用根索她的恩液苦心的悲慈苦苦哺出不幸呢还是大幸这婴孩钟整个大陆的爱在一只苦瓜皮鞋踩过马蹄踏过重吨战车的履带碾过一丝伤痕也不曾留下只留下隔玻璃这奇迹难信犹带着后土依依的祝福在时光以外奇异的光中熟着一个自足的宇宙饱满而不虞腐烂一只仙果不产生在仙山产在人间久朽了你的前身唉久朽为你换胎的那手那巧腕千眄万睐巧将你引渡笑对灵魂在白玉里流转一首歌咏生命曾经是瓜而苦被永恒引渡成果而甘";setup=e=>{resetBG(),colorMode(HSB),rectMode(CENTER)},resetBG=e=>{createCanvas(windowWidth,windowHeight).parent("backdrop"),w=min(width,height),h=w/2,thisHue=random(360),background(0),frameRate(20),noStroke()},draw=e=>{translate(width/2,height/2),background(0),DrawRect(w,0,0,thisHue)},DrawRect=(e,t,r)=>{e/h<abs(noise((mouseX/5-t)/h+1,(mouseY/5-r)/h+frameCount/1e3,mag(t,r)/w)-.5)?(fill((thisHue+3*e)%360,5*e,50,2-.06*e),textSize(1.5*e),text(poem.charAt((t+(r+h)*(w/e))%poem.length),t,r)):3<(e/=2)&&(DrawRect(e,t-e,r-e),DrawRect(e,t+e,r-e),DrawRect(e,t-e,r+e),DrawRect(e,t+e,r+e))},$(window).resize(function(){resetBG()});
+setup = e => {
+    resetBG(), colorMode(HSB), rectMode(CENTER)
+}, resetBG = e => {
+    createCanvas(windowWidth, windowHeight).parent("backdrop"), w = min(width, height), h = w / 2, thisHue = random(360), background(0), frameRate(20), noStroke()
+}, draw = e => {
+    translate(width / 2, height / 2), background(0), DrawRect(w, 0, 0, thisHue)
+}, DrawRect = (e, t, r) => {
+    e / h < abs(noise((mouseX / 5 - t) / h + 1, (mouseY / 5 - r) / h + frameCount / 1e3, mag(t, r) / w) - .5) ? (fill((thisHue + 10 * e) % 360, 5 * e, 70 - e, 1 - .05 * e), rect( t, r, 1.3*e,1.2*e)) : 2.5 < (e /= 2) && (DrawRect(e, t - e, r - e), DrawRect(e, t + e, r - e), DrawRect(e, t - e, r + e), DrawRect(e, t + e, r + e))
+}, $(window).resize(function () {
+    resetBG()
+});
