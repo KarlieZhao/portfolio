@@ -2,6 +2,7 @@
 
 /* typeface */
 body {
+    background-color: #00000085;
     color: white;
     font-size: calc(11px + 1vmin);
     font-family: "Mukta", sans-serif;
