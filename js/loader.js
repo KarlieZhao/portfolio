@@ -5,16 +5,14 @@ new Vue({
   },
   mounted() {
     window.addEventListener('load', this.onPageLoad);
-    // setTimeout(this.onPageLoad, 3000); // 3-second delay for debugging
+    // setTimeout(this.onPageLoad, 10000); //delay for debugging
   },
   methods: {
     onPageLoad() {
-      setTimeout(() => {
-        this.loading = false;
-        this.$nextTick(() => {
-          this.initializeBackground();
-        });
-      }, 2000); 
+      this.loading = false;
+      this.$nextTick(() => {
+        this.initializeBackground();
+      });
     },
     initializeBackground() {
       let s = (p) => {
