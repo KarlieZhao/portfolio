@@ -37,12 +37,12 @@ new Vue({
         p.draw = function () {
           p.translate(p.width / 2, p.height / 2);
           p.background(0);
-          DrawRect(w, 0, 0, thisHue);
+          DrawRect(w, 0, 0);
         }
 
         function DrawRect(e, t, r) {
-          if (e / h < p.abs(p.noise((p.mouseX / 5 - t) / h + 1, (p.mouseY / 5 - r) / h + p.frameCount / 1000, p.mag(t, r) / w) - 0.5)) {
-            p.fill((thisHue + 5 * e) % 360, 5 * e, 70 - e, 1 - 0.028 * e);
+          if (e / h < p.abs(p.noise((p.mouseX / 5 - t) / h + 1, (p.mouseY / 5 - r) / h + p.frameCount / 5000, p.mag(t, r) / w) - 0.5)) {
+            p.fill((thisHue + 5 * e) % 360, 70 - 5 * e, 70 - e, 1 - 0.028 * e);
             p.rect(t, r, 1.3 * e, 1.2 * e);
           } else if (e /= 2, e > 2.5) {
             DrawRect(e, t - e, r - e);
