@@ -1,18 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 /* typeface */
 body {
-    background-color: #00000085;
+    
+background: linear-gradient(0deg, rgba(0,0,0,0.8533614129245448) 0%, rgba(0,0,0,0.7693277994791666) 60%, rgba(0,0,0,0.329551889115021) 100%);
     color: white;
-    font-size: calc(11px + 1vmin);
-    font-family: "Mukta", sans-serif;
-    font-weight: 400;
+    font-size: calc(6px + 1vmin);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
     font-style: normal;
     /* line-height: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: calc(15px + 2vmin);
+}
+a{
+    color:white;
 }
 .workpage {
     background-color: black;
@@ -27,12 +34,12 @@ body {
 }
 
 a {
-    color: #a5c6ff;
+    color: #white;
     text-decoration: none;
 }
 
 p {
-    font-family: "Mukta", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 b {
@@ -40,18 +47,19 @@ b {
 }
 
 h1 {
-    font-size: calc(24px + 3vmin);
-    font-family: "Mukta", sans-serif;
-    font-weight: 500;
-    line-height: calc(30px + 4vmin);
+    font-size: calc(15px + 3vmin);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: calc(30px + 5vmin);
     font-style: normal;
     margin-block-start: 0.1em;
 }
 
 h2 {
-    font-size: calc(14px + 1.6vmin);
-    font-family: "Mukta", sans-serif;
-    font-weight: 400;
+    font-size: calc(14px + 1.2vmin);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
     font-style: normal;
     line-height: 2.0rem;
     margin-block-start: 0.3em;
@@ -75,19 +83,19 @@ h2 a {
 }
 
 .mukta-extralight {
-    font-family: "Mukta", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 200;
     font-style: normal;
 }
 
 .mukta-light {
-    font-family: "Mukta", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
 .mukta-regular {
-    font-family: "Mukta", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
