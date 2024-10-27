@@ -1,0 +1,49 @@
+[{
+        "title": "WhitePhosphorus.info",
+        "year": "Work in progress",
+        "medium": "website, data visualization",
+        "imageUrl": "/artwork/wp/page1.png",
+        "description": "Project dedicated to exposing the use of white phosphorus bombs in South Lebanon as a tool of environmental manipulation. Through spatial analysis and geolocation, this project document and visualize how white phosphorus, a toxic substance, transforms landscapes into long-term hazards. ",
+        "projectUrl": "https://whitephosphorus.vercel.app/",
+        "sideContent": "Interactive data visualization website<br> designed and programmed by Karlie. <br><br>Design tools: Figma, Adobe Suite, ObservableHQ;<br>Built with D3.js, React, Next.js, Node.js, ARCGIS. <br><br>This is an on-going project.",
+        "imageAsset": ["/artwork/wp/page1.png", "/artwork/wp/wip1.png", "/artwork/wp/wip2.png"]
+    },
+    {
+        "title": "The Achilles' Heel of Calcifying Organisms",
+        "year": 2024,
+        "medium": "stop-motion animation",
+        "imageUrl": "/artwork/animation.jpeg",
+        "description": "As part of the Vis-a-thon program hosted by the Edna W. Lawrence Nature Lab at RISD, my collaboration with Oceanography scientist Hongjie Wang led to the creation of this film, which recreate an experiment that visualizes the effect of ocean Acidification to shell creatures.",
+        "projectUrl": "https://www.vis-a-thon.com/the-achilles-heel-of-calcifying-organisms",
+        "sideContent": "Target audience: elementary & middle school students. <br>Goal: to introduce Ocean Acidification to students in a relatable and meaningful way. <br>Design & production tools: Adobe Suite, Reaper, Sony A7 SLR camera. <br><br>With grocery items and oystershells, <br>we conducted and documented the experiment<br> and turned it into a children-friendly video.<br>We hope that this video will provide students<br>with a visual, relatable perspective<br> on the dangers of OA and will serve as a reference<br> for students to conduct the experiment at home.",
+        "imageAsset": ["/artwork/oa/bs1.jpg", "/artwork/oa/bs2.jpg", "/artwork/oa/bs3.jpg", "/artwork/oa/bs4.jpg", "/artwork/oa/oysters.jpeg", "/artwork/oa/broken.jpg", "/artwork/oa/ph1.jpeg", "/artwork/oa/ph2.jpeg", "/artwork/oa/sem1.jpeg", "/artwork/oa/sem2.jpeg"]
+    },
+    {
+        "title": "MicroVision",
+        "year": 2022,
+        "medium": "data visualization, installation",
+        "imageUrl": "/artwork/microvision.jpg",
+        "description": "A Multimedia installation consisting of prints on thermal paper of plants' cellular structures, and a custom-made microscope that concretizes gazes into burn marks. This work explores the possibility of visualizing plants's cellular structure with the Voronoi algorithm, attempting to examine the act of 'gazing' in scientific studies, with a particular focus on how the power dynamics between humans and plants is enhanced by scientific instruments.",
+        "sideContent": "Multimedia Installation:<br>Burn marks on printed thermal paper;<br>Microscope eyepiece;<br>Microcontroller and electronics;<br>Various leaves in sealed containers.<br><br> -> sculpture: 15\" x 15\" x 45\" <br>  -> prints: 18\" x 30\" each",
+        "imageAsset": ["/artwork/mv/prints1.jpg", "/artwork/mv/leaf-closeup2.jpg", "/artwork/mv/prints2.png", "/artwork/mv/prints2.jpg", "/artwork/mv/scope2.jpg", "/artwork/mv/scope2.png", "/artwork/mv/scope-closeup.png"]
+    },
+    {
+        "title": "Prompt Generator",
+        "year": 2022,
+        "medium": "Web console",
+        "imageUrl": "/artwork/promptGen.png",
+        "description": "As an essential component of an performative art project, Prompt Generator is a web control panel designed for generating ChatGPT prompts instructing the GPT to act as a playwright, with its generation process adjustable to the user.",
+        "sideContent": "I was commissioned to design the UX/UI of the control panel and implement the features with code. The project favors clear, understandable visual languages, practicality, and simple operation. Therefore, the panel design area was clearly divided into sections following the logics of prompt engineering and script writing.<br> <br>Design tools: Figma, Adobe XD <br>Built with: Python Flask, Vanilla JavaScript, HTML, CSS.",
+        "imageAsset": ["/artwork/promptgen/design.png", "/artwork/promptgen/firefox.png", "/artwork/promptgen/img1.png", "/artwork/promptgen/UI3.png"]
+    },
+    {
+        "title": "MetroSound.art",
+        "year": "Work in progress, demo only",
+        "medium": "Real-time audio mixing web app",
+        "imageUrl": "/artwork/metrosound/metroSound.png",
+        "description": "MetroSound.art",
+        "projectUrl": "https://vimeo.com/1011506753",
+        "sideContent": "",
+        "imageAsset": []
+    }
+]
